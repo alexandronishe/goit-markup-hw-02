@@ -16,7 +16,7 @@
   --accent-text-color: #2196f3;
   --secondary-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
-  --footer-adress-color: color: rgba(255, 255, 255, 0.6);
+  --footer-adress-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -94,6 +94,7 @@ body {
   background-color: var(--footer-bg-color);
 }
 .hero-button {
+  font-family: inherit;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -126,7 +127,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-.subtitle .text {
+.list .text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -157,15 +158,15 @@ body {
 
 /* Footer */
 
-footer {
+.footer {
   background-color: var(--footer-bg-color);
 }
 
-footer .logo {
+.footer .logo {
   color: var(--white--text-color);
 }
 
-footer .link {
+.footer .link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -174,24 +175,25 @@ footer .link {
   text-decoration: none;
   color: var(--footer-adress-color);
 }
-footer .link.adress {
+.footer .link.adress {
   color: var(--white--text-color);
 }
 
-footer .link:hover,
-footer .link:focus {
+.footer .link:hover,
+.footer .link:focus {
   color: var(--accent-text-color);
 }
 
+/* 
 
+------PORTFOLIO PAGE-------
 
-/* -----------PORTFOLIO PAGE---------- */
-
-
+ */
 
 /* Examples */
 
 .filter-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
